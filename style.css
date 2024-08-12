@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+}
+
+nav{
+    border-bottom: 3px solid #F99D1B;
+    box-shadow: 0px 10px 20px #F99D1B;
+}
+
+.logo{
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.allas{
+    margin-left: 230px;
+    margin-top: -20px;
+    display: flex;
+    gap: 60px;
+}
+
+.allas > a:hover{
+    color: white;
+}
+
+.allas > a{
+    color: #F99D1B;
+    border: 2px solid none;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+.allai{
+    margin-top: -20px;
+    margin-left: 990px;
+    display: flex;
+    gap: 40px;
+}
+
+.allai > .ai1 > img{
+    background-color: #F99D1B;
+    border: 2px solid #F99D1B;
+    border-radius: 4px;
+}
+
+.allai > .ai2 > img{
+    background-color: #F99D1B;
+     border: 2px solid #F99D1B;
+    border-radius: 4px;
+}
+
+.allai > .ai3 > img{
+    background-color: #F99D1B;
+    border: 2px solid #F99D1B;
+    border-radius: 4px;
+}
+
+.allai > .ai4 > img{
+    background-color: #F99D1B;
+    border: 2px solid #F99D1B;
+    border-radius: 4px;
+}
+
+.allai > .ai1 > img:hover{
+    background-color: black;
+    box-shadow: 0px 1px 30px #F99D1B;
+    border: 2px solid black;
+}
+
+.allai > .ai2 > img:hover{
+    background-color: black;
+    box-shadow: 0px 1px 30px #F99D1B;
+    border: 2px solid black;
+}
+
+.allai > .ai3 > img:hover{
+    background-color: black;
+    box-shadow: 0px 1px 30px #F99D1B;
+    border: 2px solid black;
+}
+
+.allai > .ai4 > img:hover{
+    background-color: black;
+    box-shadow: 0px 1px 30px #F99D1B;
+    border: 2px solid black;
+}
+
+.all{
+    background-image: url(img/background.png);
+    height: 800px;
+}
+
+.leaf1{
+    width: 100px;
+    margin-left: 70px;
+    transform: rotate(60deg);
+}
+
+.h1{
+    color: white;
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: -20px;
+    font-family: sans-serif;
+}
+
+.h1 > .sp2{
+    color: #F99D1B;
+}
+
+.h1 > span{
+    color: #F99D1B;
+}
+
+.leaf2{
+    width: 170px;
+    margin-left: 550px;
+    margin-top: -260px;
+}
+
+.honeycan > img{
+    margin-left: 860px;
+    margin-top: -350px;
+}
+
+p{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 90px;
+}
+
+ .img1{
+    padding-bottom: 5%;
+    padding-right: 15%;
+    position: absolute;
+    animation-name: a-bee;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a-bee{
+    0%{right: 0%;}
+    25%{right: 30%;}
+    50%{right: 50%; bottom: 0px;}
+    100%{right: 100%; bottom: 0px;}
+}
+  
